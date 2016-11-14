@@ -9,7 +9,7 @@ function getTodos(res) {
         }
 
         res.json(todos); // return all todos in JSON format
-    }); 
+    });  
 };
 
 module.exports = function (app) {
